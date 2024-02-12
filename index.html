@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Kunal Diwakar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=chillax@600,500,700,400,200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="nav">
+            <div id="nav-left">
+                <i class="ri-command-line"></i>
+                <h4>KUNAL DIWAKAR</h4>
+            </div>
+
+            <div class="sidebar">
+                <h4 onclick=hideSidebar() ><i class="ri-close-line"></i></h4>
+                <h4>WORK</h4>
+                <h4>ABOUT</h4>
+                <h4>CONTACT</h4>
+            </div>
+
+            <div id="nav-right">
+                <h4 class="hideonMobile">WORK</h4>
+                <h4 class="hideonMobile">ABOUT</h4>
+                <h4 class="hideonMobile">CONTACT</h4>
+                <h4 onclick=showSidebar() ><i  class="ri-menu-line"></i></h4>
+            </div>
+
+            
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <div class="item" id="gif"></div>
+
+            <div class="item" id="title">
+                <div class="scroller">
+                    <div class="scroller-in">
+                        <h4>WEB DEVELOPER</h4>
+                    </div>
+    
+                    <div class="scroller-in">
+                        <h4>WEB DEVELOPER</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" id="about">
+                <div class="head">
+                    <h4>ABOUT ME</h4>
+                    <i class="ri-arrow-right-down-line"></i>
+                </div>
+
+                <div class="body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, magni in repudiandae corporis, voluptates quibusdam voluptatum eaque mollitia architecto, quo excepturi eius. Aspernatur et dolorum aperiam molestiae praesentium. Expedita, tenetur!</p>
+                </div>
+            </div>
+
+            <div class="item" id="contact">
+                <div class="head">
+                    <h4>CONTACT</h4>
+                    <i class="ri-arrow-right-down-line"></i>
+                </div>
+
+                <div class="body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae asperiores dolorum unde et ut provident laudantium dolores eveniet dicta?</p>
+                </div>
+            </div>
+
+            <div class="item" id="work">
+                <div class="head">
+                    <h4>MY WORK</h4>
+                    <i class="ri-arrow-right-down-line"></i>
+                </div>
+
+                <div class="body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, magni in repudiandae corporis, voluptates quibusdam voluptatum eaque mollitia architecto, quo excepturi eius. Aspernatur et dolorum aperiam molestiae praesentium. Expedita, tenetur!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
